@@ -25,7 +25,7 @@ async def question_answering(request: QARequest, db: AsyncSession = Depends(get_
     )
     
     # 4. LLM Generation
-    answer = await llm_client.generate(prompt)
+    answer = llm_client.generate(prompt)
     
     return QAResponse(
         answer=answer.strip(),
