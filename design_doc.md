@@ -25,7 +25,7 @@ Used `all-MiniLM-L6-v2` for embeddings.
 -   **Pros**: Fast, runs effectively on CPU/low-resource containers, small memory footprint.
 -   **Cons**: Lower semantic capacity than large commercial models (e.g. OpenAI ada-002), but sufficient for this demo.
 
-### LLM Strategy: Groq (Mixtral/Llama3)
+### LLM Strategy: Groq (Llama3)
 We use Groq for ultra-fast inference speed suitable for real-time RAG.
 **Critical Design Choice - Abstraction**:
 Although a hosted LLM (Groq) is used for reliability and speed, the system is designed with a strict abstraction layer (`app/core/llm.py`), allowing seamless replacement with other providers without API changes. The application logic interacts with `LLMClient.generate(prompt)`, unaware of the underlying provider.
