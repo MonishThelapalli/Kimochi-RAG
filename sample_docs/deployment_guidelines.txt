@@ -1,0 +1,17 @@
+Title: Deployment Guidelines
+
+1. Deployment Schedule
+Production deployments are restricted to Tuesdays, Wednesdays, and Thursdays between 10:00 AM and 2:00 PM UTC. No deployments are allowed on Fridays ("Read-Only Fridays") or weekends unless it is a P0 hotfix.
+
+2. CI/CD Pipeline
+All code must pass the standard CI/CD pipeline on Jenkins/GitHub Actions. This includes:
+- Unit tests (min 80% coverage)
+- Linting (Black/Flake8 for Python)
+- Integration tests
+- Container vulnerability scan (Trivy or Snyk)
+
+3. Approval Process
+Any merge to the 'main' branch requires at least one approval from a Senior Engineer. Production deployments require a "Go/No-Go" approval from the QA Lead and the Engineering Manager on the #release-ops Slack channel.
+
+4. Rollback Strategy
+Every deployment must have an automated rollback plan. If error rates exceed 1% or latency spikes by 50% within 15 minutes of deployment, the automated rollback script is triggered immediately.

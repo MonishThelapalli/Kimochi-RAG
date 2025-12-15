@@ -1,0 +1,15 @@
+Title: New Employee Onboarding Checklist
+
+1. Day 1
+- Collect laptop and access badge from IT.
+- Attend HR orientation session (10:00 AM).
+- Set up email signature and Slack profile.
+
+2. Week 1
+- Complete mandatory compliance training (Data Privacy, POSH).
+- Schedule 1:1 meetings with immediate team members.
+- Gain access to necessary GitHub repos and Jira boards.
+
+3. Month 1
+- Define OKRs (Objectives and Key Results) with the manager.
+- Complete the "Kimochi Way" culture workshop.

@@ -1,0 +1,16 @@
+Title: Code Review Guidelines
+
+1. Scope of Review
+Code reviews should focus on logical correctness, performance, security, and maintainability. Style and formatting should be handled automatically by pre-commit hooks (Black/Prettier).
+
+2. PR Size limit
+Pull Requests (PRs) should be kept small to facilitate effective review. A soft limit of 400 lines of code change per PR is recommended. Larger features should be broken down into stacked PRs.
+
+3. Turnaround Time
+The expected turnaround time for a code review is 24 hours. If a PR is critical/blocking, label it as "Urgent" on GitHub and notify the team in Slack.
+
+4. Comments Etiquette
+- Be constructive and polite.
+- Distinction between "Nitpick" (optional) and "Blocker" (mandatory fix).
+- Suggest code snippets for fixes where possible.
+- Approve explicitly when all comments are addressed.

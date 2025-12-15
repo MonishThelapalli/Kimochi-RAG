@@ -1,0 +1,13 @@
+Title: Security Best Practices
+
+1. Credentials Management
+NEVER commit secrets, API keys, or passwords to Git. Use environment variables or AWS Secrets Manager. If a secret is leaked, it must be rotated immediately.
+
+2. Least Privilege Access
+Access to production servers and databases is restricted. Developers should use the "Break Glass" procedure to request temporary prod access via Teleport, which requires approval.
+
+3. Data Privacy
+Personally Identifiable Information (PII) such as emails, phone numbers, and addresses must be encrypted at rest (AES-256) and masked in logs.
+
+4. Laptop Security
+All employee laptops must have full-disk encryption enabled (BitLocker/FileVault). Screen lock should trigger after 5 minutes of inactivity. endpoint protection (CrowdStrike) must not be disabled.

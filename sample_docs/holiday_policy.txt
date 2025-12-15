@@ -1,0 +1,15 @@
+Title: Holiday Calendar 2025
+
+1. Mandatory Holidays (Fixed)
+- New Year's Day: January 1
+- Republic Day: January 26
+- Independence Day: August 15
+- Gandhi Jayanti: October 2
+- Labor Day: May 1
+- Christmas: December 25
+
+2. Floating Holidays
+Employees may choose any 4 optional holidays from the regional list (e.g., Diwali, Eid, Thanksgiving, Holi). These must be declared in the HR portal by January 31st of the year.
+
+3. Working Weekends
+We follow a 5-day work week (Monday to Friday). In exceptional cases involving critical deployments, weekend work may be required, for which compensatory off (Comp-Off) will be credited.

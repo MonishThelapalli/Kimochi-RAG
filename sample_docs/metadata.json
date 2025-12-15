@@ -1,0 +1,86 @@
+[
+  {
+    "filename": "leave_policy.txt",
+    "title": "Leave Policy",
+    "department": "HR",
+    "tags": ["leave", "vacation", "sick leave", "policy"]
+  },
+  {
+    "filename": "wfh_policy.txt",
+    "title": "Work From Home Policy",
+    "department": "HR",
+    "tags": ["remote", "hybrid", "office", "policy"]
+  },
+  {
+    "filename": "holiday_policy.txt",
+    "title": "Holiday Calendar 2025",
+    "department": "HR",
+    "tags": ["holidays", "calendar", "off-days"]
+  },
+  {
+    "filename": "code_of_conduct.txt",
+    "title": "Code of Conduct",
+    "department": "HR",
+    "tags": ["ethics", "behavior", "compliance"]
+  },
+  {
+    "filename": "deployment_guidelines.txt",
+    "title": "Deployment Guidelines",
+    "department": "Engineering",
+    "tags": ["devops", "ci-cd", "release"]
+  },
+  {
+    "filename": "code_review_guidelines.txt",
+    "title": "Code Review Guidelines",
+    "department": "Engineering",
+    "tags": ["development", "pr", "quality"]
+  },
+  {
+    "filename": "incident_response.txt",
+    "title": "Incident Response Process",
+    "department": "Engineering",
+    "tags": ["oncall", "sre", "outage"]
+  },
+  {
+    "filename": "security_best_practices.txt",
+    "title": "Security Best Practices",
+    "department": "Engineering",
+    "tags": ["security", "access", "compliance"]
+  },
+  {
+    "filename": "expense_policy.txt",
+    "title": "Expense Reimbursement Policy",
+    "department": "Operations",
+    "tags": ["finance", "claims", "money"]
+  },
+  {
+    "filename": "travel_policy.txt",
+    "title": "Corporate Travel Policy",
+    "department": "Operations",
+    "tags": ["travel", "flights", "hotels"]
+  },
+  {
+    "filename": "it_support.txt",
+    "title": "IT Support Escalation Matrix",
+    "department": "Operations",
+    "tags": ["it", "helpdesk", "support"]
+  },
+  {
+    "filename": "onboarding_checklist.txt",
+    "title": "New Employee Onboarding",
+    "department": "Operations",
+    "tags": ["joining", "orientation", "hr"]
+  },
+  {
+    "filename": "office_timings.txt",
+    "title": "Office Timings",
+    "department": "Misc",
+    "tags": ["logistics", "access", "facilities"]
+  },
+  {
+    "filename": "employee_benefits.txt",
+    "title": "Employee Benefits Overview",
+    "department": "Misc",
+    "tags": ["insurance", "perks", "wellness"]
+  }
+]

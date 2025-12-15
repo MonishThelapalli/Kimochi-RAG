@@ -1,0 +1,14 @@
+Title: IT Support Escalation Matrix
+
+1. Standard Support
+For standard issues (password reset, software install), file a ticket on Jira Service Desk.
+SLA: 24 hours.
+
+2. Urgent Support
+For hardware failure or access blockage preventing work, call the IT Helpdesk Hotline (+1-800-KIMOCHI) or visit the IT Desk on floor 3.
+SLA: 2 hours.
+
+3. Escalation Matrix
+- Level 1: IT Support Analyst
+- Level 2: IT Operations Manager (escalate if SLA breached by 50%)
+- Level 3: CTO (only for system-wide outages)

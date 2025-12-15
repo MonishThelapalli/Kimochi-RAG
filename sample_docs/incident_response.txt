@@ -1,0 +1,15 @@
+Title: Incident Response Process
+
+1. Severity Levels
+- SEV-1 (Critical): Service down, data loss, or security breach. SLA: 15 mins response.
+- SEV-2 (High): Feature broken, major performance degradation. SLA: 1 hour response.
+- SEV-3 (Medium): Minor bug, workaround available. SLA: 24 hours.
+
+2. Incident Commander (IC)
+For every SEV-1 or SEV-2, an Incident Commander is assigned. The IC is responsible for coordination, communication, and decision-making. They do not debug; they delegate.
+
+3. War Room
+A Zoom "War Room" link is auto-generated in the #incidents Slack channel. All relevant stakeholders (Dev, Ops, Support) must join. Communications should be succinct.
+
+4. Post-Mortem (RCA)
+A Root Cause Analysis (RCA) document must be created within 48 hours of resolving a SEV-1. It must follow the "5 Whys" template and focus on process improvements, not blaming individuals.

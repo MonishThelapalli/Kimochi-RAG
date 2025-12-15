@@ -1,0 +1,15 @@
+Title: Expense Reimbursement Policy
+
+1. Reimbursable Expenses
+Employees can claim reimbursement for business-related expenses such as client machinery, software subscriptions (approved by IT), and team lunches (monthly cap).
+
+2. Limits
+- Team Lunch: $30 per person.
+- Internet Bill (for non-WFH allowance claims): Up to $50/month.
+- Learning & Development: $1000/year for courses and books.
+
+3. Filing Process
+All expenses must be filed on Expensify within 30 days of the transaction. Receipts are mandatory for any claim above $10. Approvals are routed to the direct manager and then Finance.
+
+4. Payout Cycle
+Approved claims are processed on the 15th and 30th of every month.
